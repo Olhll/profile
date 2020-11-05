@@ -49,35 +49,6 @@ img {
 }
 
 
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 50%;
-  opacity: 0;
-  transition: .9s ease;
-  background-color: #F69580;
-  border-radius: 50%
-}
-
-.container:hover .overlay {
-  opacity: 0.9;
-}
-
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-
-
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
