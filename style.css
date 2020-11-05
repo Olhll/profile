@@ -42,12 +42,6 @@ img {
   height: auto;
 }
 
-.container {
-  position: relative;
-  width: 50%;
-  margin: 40px auto;
-}
-
 
 
 @media (max-width: 960px) {
